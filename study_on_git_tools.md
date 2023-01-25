@@ -410,3 +410,11 @@ $ git log --graph --pretty==format:"%h %s"
 $ git remote add practice https:username:password@github.com/...
 $ git push practice master
 ```
+## git ssh登录
+```bash
+$ ls ~/.ssh
+$ ssh-keygen -t ed25519 -C "stevenyao@g.skku.edu"
+# To initialize the ssh key and both private &public key will be downloaded in ~/.ssh 
+$ cat ~/.ssh/id_ed25519.pub   # This is the public key for ssh
+```
+## 将ssh密钥复制到github中 
